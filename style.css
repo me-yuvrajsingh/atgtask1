@@ -1,0 +1,552 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;300;400;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    animation: 2s ease;
+    overflow-x: hidden;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+p {
+    margin-bottom: 0 !important;
+}
+
+.edit-icon {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.width-fit-content {
+    width: fit-content;
+}
+
+.height-100 {
+    height: 100%;
+}
+
+.none {
+    display: none !important;
+}
+
+.align-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-menu {
+    width: 100vw;
+    height: 72px;
+    padding: 0 4rem;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
+}
+
+.login-text {
+    margin-bottom: 0 !important;
+}
+
+form.search-bar {
+    border: none;
+    padding: 0;
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 9px 4px 9px 40px;
+    background: #F2F2F2 url("/images/search.png") no-repeat 13px center;
+    width: 360px;
+    height: 42px;
+    border-radius: 21px;
+}
+
+.signup-div, .signin-div {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #00000079;
+    overflow: hidden;
+}
+
+.closing-btn {
+    right: 10px;
+    position: absolute;
+    top: 8px;
+    font-size: 1.3rem;
+    color: black;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.login-cont {
+    height: fit-content;
+    width: 736px;
+    background: white;
+    border-radius: 8px;
+}
+
+.alert {
+    height: 50px;
+    width: 100%;
+    background: #EFFFF4;
+    color: #008A45;
+    font-weight: 500;
+    font-size: 14px;
+    overflow-y: hidden;
+}
+
+.details .title {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.input-fields input {
+    width: 100%;
+    height: 46px;
+    padding: 0.2rem 0.4rem;
+    border: 1px solid #D9D9DB;
+    background: #F7F8FA;
+    font-weight: 500;
+    font-size: 15px;
+    color: #8A8A8A;
+}
+
+.input-fields input:focus {
+    outline: none;
+    border: 1px solid #D9D9DB;
+
+}
+
+.signup-btn {
+    height: 40px;
+    background: #2F6CE5;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    border: none;
+}
+
+.socials div {
+    height: 38px;
+    background: #FFFFFF;
+    border: 0.6px solid #D9D9DB;
+    border-radius: 2px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.socials div:hover {
+    cursor: pointer;
+}
+
+.icons .signin {
+    text-align: right;
+}
+
+.icons .text {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    /* identical to box height, or 145% */
+
+    text-align: right;
+    letter-spacing: -0.008em;
+
+    color: #000000;
+
+    opacity: 0.6;
+}
+
+
+
+
+
+.my-container, .img-holder, .card-overlay {
+    height: 440px;
+    width: 100vw;
+}
+
+.card-overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.img-holder {
+    background-image: url('/images/pic1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.my-text-cont {
+    display: flex;
+    width: 100vw;
+    height: 100%;
+}
+
+.my-text-cont-left {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 100%;
+    padding: 1.3rem;
+}
+
+.my-text-cont-left-up {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-text-cont-left-down {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.my-text-cont-left-down h3 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    color: white;
+}
+
+.my-text-cont-left-down p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+
+
+
+
+.li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #8A8A8A;
+}
+
+.li:hover {
+    cursor: pointer;
+}
+
+.li-active {
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+.my-btn {
+    width: 125px;
+    height: 36px;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-post {
+    background: #EDEEF0;
+    color: black;
+}
+
+.btn-join {
+    background: #2F6CE5;
+    color: white;
+}
+
+.leave-grp-btn {
+    height: fit-content;
+    width: fit-content;
+    padding: 0.4rem 0.5rem;
+    border: 1px solid white;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.filter-btn, .leave-btn {
+    justify-content: space-around;
+    cursor: pointer;
+    background: #F1F3F5;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 13px;
+    color: #212529;
+}
+
+
+/* card section  */
+
+.my-cards {
+    width: 70%;
+}
+
+.my-card {
+    width: 100%;
+    max-width: 100vw;
+    border: 1px solid #E0E0E0;
+    height: fit-content;
+    border-radius: 4px;
+}
+
+.my-card-img {
+    width: 100%;
+    height: fit-content;
+}
+
+.my-card-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.my-card-content {
+    padding: 0.5rem 1.1rem;
+}
+
+.my-card-category {
+    width: 100%;
+}
+
+.my-card-category p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #000000;
+
+}
+
+.my-card-title {
+    display: flex;
+    width: 100%;
+}
+
+.my-card-title p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 134.17%;
+    width: 95%;
+}
+
+.my-card-title-triple-dot {
+    height: 32px;
+    width: 36px;
+    font-size: 25px;
+    border-radius: 4px;
+}
+
+.my-card-title-triple-dot:hover {
+    border: none;
+    background: #BFC0C0;
+    cursor: pointer;
+}
+
+.more-actions {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 160px;
+    height: 102px;
+    left: 712px;
+    top: 1914px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.16), 0px 0px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+}
+
+.dropdown-menu {
+    transform: translate(697px, 970px) !important;
+}
+
+.more-actions div {
+    height: 33.3%;
+}
+
+.my-card-desc {
+    width: 100%;
+}
+
+.my-card-desc p {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 134.17%;
+    /* or 25px */
+    color: #5C5C5C;
+}
+
+.my-card-about {
+    height: 4rem;
+    width: 100%;
+}
+
+.my-card-author {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.my-card-author-img, .my-card-author-name {
+    height: 100%;
+    text-align: center;
+}
+
+.my-card .my-card-views {
+    width: 50%;
+    font-size: 14px;
+    justify-content: flex-end !important;
+}
+
+.my-card .my-card-views span {
+    margin-right: 5px;
+}
+
+.my-card .my-card-share {
+    width: 20%;
+}
+
+.my-card .my-card-share .share-btn {
+    width: 50%;
+    height: 50%;
+    border: none;
+    background-color: #EDEEF0;
+    ;
+}
+
+.my-card-visit {
+    height: 38px;
+    background: #FFFFFF;
+    border: 0.7px dashed #A9AEB8;
+    border-radius: 8px;
+    color: #E56135;
+    font-size: 13px;
+}
+
+.my-card-visit:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.side-nav {
+    width: 30%;
+    /* padding: 2rem; */
+}
+
+.location-box {
+    justify-content: space-between;
+    width: 70%;
+    align-items: flex-end;
+    padding: 0.6rem 0;
+    border-bottom: 0.4px solid #B8B8B8;
+}
+
+.location-box input {
+    border: none;
+    outline: none;
+    padding-bottom: 0;
+}
+
+.location-box input:focus {
+    border: none;
+    outline: none;
+}
+
+.side-text {
+    width: 70%;
+}
+
+.info-img {
+    width: 13%;
+}
+
+.info-img img {
+    height: 13.33px;
+    width: auto;
+}
+
+.side-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #000000;
+
+    opacity: 0.5;
+}
+
+
+.recommendation {
+    width: 70%;
+}
+
+.rg-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.identify img {
+    height: 36px;
+    width: auto;
+}
+
+.identify {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    width: 40%;
+    align-items: center;
+}
+
+.follow-btn {
+    width: 60px;
+    height: 24px;
+    background: #EDEEF0;
+    border-radius: 14px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.follow-btn:hover {
+    cursor: pointer;
+}

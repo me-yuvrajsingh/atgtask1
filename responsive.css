@@ -1,0 +1,264 @@
+@media only screen and (max-width: 1206px) {
+    .location-box, .side-text, .recommendation {
+        width: 80%;
+    }
+
+    .my-card-views {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 994px) {
+    .location-box, .side-text, .recommendation {
+        width: 90%;
+    }
+
+    .location-box input {
+        width: 73%;
+    }
+
+    .recommendation {
+        font-size: 12px;
+    }
+
+    .identify {
+        width: 60%;
+    }
+
+    .info-img {
+        width: 25%;
+    }
+
+    .sec-menu-left {
+        width: 55%;
+    }
+
+    .my-card-author {
+        width: 65%;
+    }
+
+    .my-card-social {
+        width: 50%;
+    }
+
+    .my-card-views {
+        width: 50%;
+
+    }
+}
+
+@media only screen and (max-width: 835px) {
+    .login-cont {
+        width: 80%;
+    }
+
+    .icons {
+        display: none !important;
+    }
+
+    .signup-btn {
+        width: 30%;
+    }
+
+    .phone-text {
+        display: block !important;
+        color: black !important;
+    }
+
+    .details {
+        width: 100%;
+    }
+
+    .my-menu {
+        padding: 0 2rem;
+    }
+
+    .my-text-cont-right {
+        display: none;
+    }
+
+    .my-text-cont-left {
+        width: 100%;
+    }
+
+    .my-text-cont-left-down {
+        align-items: flex-start !important;
+        padding: 0 2rem;
+    }
+
+    .my-text-cont-left-up {
+        visibility: visible !important;
+    }
+
+    .li {
+        display: none !important;
+    }
+
+    .btn-grp {
+        display: none !important;
+    }
+
+    .filter-btn {
+        display: flex !important;
+    }
+
+    .btn-join, .btn-post {
+        display: none;
+    }
+
+    .li-active {
+        display: flex !important;
+    }
+
+    .my-card {
+        width: 100%;
+    }
+
+    input.search-bar {
+        display: none;
+    }
+
+    .my-card-author {
+        width: 60%;
+    }
+
+    .my-card-views {
+        width: 50%;
+        font-size: 14px;
+        justify-content: flex-start !important;
+    }
+
+    .my-text-cont-left-down h3 {
+        font-size: 28px;
+    }
+
+    .my-text-cont-left-down p {
+        font-size: 14px;
+    }
+
+    .my-cards {
+        width: 100%;
+    }
+
+    .side-nav {
+        display: none !important;
+    }
+
+    .my-card-desc-left {
+        width: 100%;
+    }
+
+    .date, .location {
+        width: 50%;
+        justify-content: flex-start !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .my-text-cont-left-down {
+        justify-content: center;
+        align-items: flex-start !important;
+        padding: 0 2rem;
+    }
+
+    .edit-icon {
+        display: block;
+    }
+
+    .logged-in, .login-text {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 505px) {
+    .login-cont {
+        position: absolute !important;
+        bottom: 0;
+        width: 100% !important;
+    }
+
+    .alert {
+        display: none !important;
+    }
+
+    .login-text {
+        display: none;
+    }
+
+    .logged-in {
+        display: none;
+    }
+
+    .my-btn {
+        font-size: 12px;
+    }
+
+    .my-text-cont-left-down {
+        justify-content: center;
+        align-items: flex-start !important;
+        padding: 0 2rem;
+    }
+
+    .my-text-cont-left-down h3 {
+        font-size: 22px !important;
+        font-weight: 700;
+    }
+
+    .my-text-cont-left-down p {
+        font-size: 14px !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .login-cont {
+        position: absolute !important;
+        bottom: 0;
+        width: 100% !important;
+    }
+
+    .alert {
+        display: none !important;
+    }
+
+    .login-text {
+        display: none;
+    }
+
+    .logged-in {
+        display: none;
+    }
+
+    .my-btn {
+        font-size: 12px;
+    }
+
+    .my-text-cont-left-down {
+        justify-content: center;
+        align-items: flex-start !important;
+        padding: 0 2rem;
+    }
+
+    .my-text-cont-left-down h3 {
+        font-size: 17px !important;
+        font-weight: 700;
+    }
+
+    .my-text-cont-left-down p {
+        font-size: 12px !important;
+    }
+
+    .my-card-author-name {
+        font-size: 12px;
+    }
+
+    .my-card .my-card-share {
+        width: 40%;
+    }
+
+    .my-card .my-card-views {
+        width: 65%;
+        font-size: 12px;
+        justify-content: flex-end !important;
+    }
+}
+
