@@ -193,7 +193,7 @@ input.search-bar {
 }
 
 .img-holder {
-    background-image: url('/images/pic1.png');
+    background-image: url('https://me-yuvrajsingh.github.io/atgtask1/images/pic1.png');
     background-size: cover;
     background-position: center;
 }
